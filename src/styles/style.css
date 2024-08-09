@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "oswald-b";
+  src: url("../../assets/fonts/Oswald-Bold.ttf");
+}
+@font-face {
+  font-family: "oswald-m";
+  src: url("../../assets/fonts/Oswald-Medium.ttf");
+}
+@font-face {
+  font-family: "greyqo";
+  src: url("../../assets/fonts/GreyQo-Regular.ttf");
+}
+:root {
+  --white: #fff;
+  --red: rgb(170, 5, 5);
+  --dark: rgb(32, 32, 32);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  color: var(--dark);
+}
